@@ -1,4 +1,3 @@
-//your JS code here. If required.
-document.addEventListner("DOMContentLoad",()=> {
-	document.body.innerHTML = `DOM load success`
-})
+document.addEventListener("DOMContentLoaded", () => {
+    document.body.innerHTML = `DOM load success`;
+});
